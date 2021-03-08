@@ -5,8 +5,8 @@ class TestLeapYear(unittest.TestCase):
     
     def test_leap_year(self):
     
-       
-        self.assertEqual(leap_year.leap_year(),0)
+        year1 = 4
+        self.assertEqual(leap_year.leap_year(year1), str(year1) + " is a leap year. ")
 
 
 
